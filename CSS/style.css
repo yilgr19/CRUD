@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #fff;
+  padding: 30px;
+  color: #333;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+  color: #222;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 40px;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"] {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  outline: none;
+  transition: border 0.2s ease-in-out;
+}
+
+form input:focus {
+  border-color: #4a90e2;
+}
+
+form input[type="submit"] {
+  width: 320px;
+  padding: 10px;
+  border: 1px solid #27ae60;
+  background: #fff;
+  color: #27ae60;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-weight: bold;
+}
+
+form input[type="submit"]:hover {
+  background: #27ae60;
+  color: #fff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background: #fff;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+table th, table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+table th {
+  background: #f0f2f5;
+  font-weight: bold;
+  text-align: center;
+}
+
+table td {
+  text-align: center;
+}
+
+table tr:hover {
+  background: #f9f9f9;
+}
+
+a {
+  text-decoration: none;
+  margin-left: 8px;
+  font-weight: bold;
+}
+
+a:first-of-type {
+  color: #4a90e2;
+}
+
+a:last-of-type {
+  color: #e74c3c;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+body { background: rgb(183, 100, 183); }
+.users-table--edit {
+  background: #009688;
+  padding: 6px 12px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 0.2s ease-in-out;
+}
+
+
+
+.users-table--delete {
+  background: #b11e1e;
+  padding: 6px 12px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 0.2s ease-in-out;
+}
+.users-table--edit,
+.users-table--delete {
+  color: #fff !important;
+}
