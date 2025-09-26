@@ -8,12 +8,12 @@
 body {
   background: #fff;
   padding: 30px;
-  color: #333;
+  color:purple;
 }
 
 h1, h2 {
   margin-bottom: 20px;
-  color: #222;
+  color: white;
   text-align: center;
 }
 
@@ -21,19 +21,19 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 12px;
-  margin-bottom: 40px;
+  gap: 50px;
+  margin-bottom: 60px;
 }
 
 form input[type="text"],
 form input[type="password"],
 form input[type="email"] {
-  width: 300px;
+  width: 500px;
   padding: 10px;
   border: 1px solid #aaa;
-  border-radius: 5px;
+  border-radius: 10px;
   outline: none;
-  transition: border 0.2s ease-in-out;
+  transition: border 0.5s ease-in-out;
 }
 
 form input:focus {
@@ -43,9 +43,9 @@ form input:focus {
 form input[type="submit"] {
   width: 320px;
   padding: 10px;
-  border: 1px solid #27ae60;
+  border: 1px solid purple;
   background: #fff;
-  color: #27ae60;
+  color: purple;
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
@@ -53,7 +53,7 @@ form input[type="submit"] {
 }
 
 form input[type="submit"]:hover {
-  background: #27ae60;
+  background: plum;
   color: #fff;
 }
 
@@ -106,7 +106,7 @@ a:hover {
 }
 body { background: rgb(183, 100, 183); }
 .users-table--edit {
-  background: #009688;
+  background: #4ba559;
   padding: 6px 12px;
   color: #fff;
   text-align: center;
@@ -120,7 +120,7 @@ body { background: rgb(183, 100, 183); }
 
 
 .users-table--delete {
-  background: #b11e1e;
+  background: #6c2525;
   padding: 6px 12px;
   color: #fff;
   text-align: center;
@@ -133,4 +133,15 @@ body { background: rgb(183, 100, 183); }
 .users-table--edit,
 .users-table--delete {
   color: #fff !important;
+}
+.extra-box {
+    width: 300px;
+    margin: 10px auto;
+    padding: 15px;
+    background: #ede7f6;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 14px;
+    color: #4a148c;
 }
